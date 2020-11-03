@@ -1,0 +1,39 @@
+body {
+    font-family: Arial , Helvetica , sans-serif;
+    font-size: 14pt;
+    line-height: 120%;
+    color: darkslategray;
+    background-color: moccasin;
+  }
+h2 {
+    font-size: 30pt;
+    font-family: Georgia, serif;
+    color: red;
+    line-height: bold;
+}
+h3 { 
+    font-size: 24pt;
+    font-family: 'Montserrat', sans-serif;
+    color: firebrick;
+}
+h3:hover {
+    font-size: 28pt;
+}
+h2:hover{ 
+    font-size: 34pt;
+}
+footer, header{
+    font-size: 10pt;
+}
+[required]{
+    border:2px solid red;
+    background-color: transparent;
+}
+.datos:focus{
+    background-color: violet;
+}
+.header{
+    padding: 2px;
+    border: 2px;
+    margin: 2px;
+}

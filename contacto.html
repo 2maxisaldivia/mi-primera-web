@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <link rel="stylesheet" href="estilos.css">
+     <link href ="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel= "stylesheet">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>La Casa del Pastel</title>
+     <meta name= "description" content="Las mejores tortas,  desayunos y postres de Alta Córdoba. Calidad esta 100% asegurada" >
+</head>
+     <body>
+          <header class="otras paginas">
+               <nav> 
+               <div>
+                    <a href="index.html"> Portada </a>
+               </div>
+               <div>
+                    <a href="galeria.html"> Galeria </a>
+               </div>
+               <div>
+                    <a href="home.html"> Home </a>
+               </div> 
+               </nav>
+                    <div class="header">
+                    <img src="http://lacasadelarepostera.com.ar/wp-content/uploads/2017/01/icolcdlr.png">
+                    </div>
+          </header>
+          <main>
+                <form class="contacto">
+                    <h1>CONTACTO</h1>
+                    <h2><em>Completa el formulario con tus datos</em></h2>
+                    <div>
+                        <label>Nombres</label>
+                            <input class="datos" type="text" required>
+                    </div>
+                    <div>
+                     <label>Apellido</label>
+                            <input class="datos" type="text" required>   
+                    </div>
+                    <div>
+                        <label>Correo electrónico</label>
+                            <input class="datos" type="email" required>
+                    </div>
+                    <div>
+                         <label>Telefono/Celular</label>
+                            <input class="datos" type="text" pattern="\d{0,9}" minlength="0" maxlength="9" required>
+                    </div>  
+                    <div>
+                          <label>Ciudad</label>
+                             <input class="datos" type="text">
+                    </div>  
+                    <div>
+                         <label>Asunto</label>
+                            <select class="datos">
+                                <label>Asunto</label>
+                                <option>Sugerencia</option>
+                                <option>Reclamo</option>
+                                <option>Elogio</option>
+                                <option>Consulta</option>
+                                <option>Otros</option>
+                         </select>
+                    </div>
+                    <div>
+                        <label>Mensaje</label>
+                            <input class="datos" type="textarea" required>
+                    </div>   
+                    <div>
+                        <button class="enviar" type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+          </main>
+    <br>
+    <br>
+          <footer class="otras paginas">
+               <nav> 
+                    <div>
+                    <a href="index.html"> Portada </a>
+                    </div>
+                    <div>
+                         <a href="galeria.html"> Galeria </a>
+                    </div>
+                    <div>
+                         <a href="home.html"> Home </a>
+                    </div> 
+               </nav>
+           </footer>
+     </body>
+</html>
