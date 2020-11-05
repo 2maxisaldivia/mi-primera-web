@@ -24,6 +24,7 @@ h2:hover{
 }
 footer, header{
     font-size: 10pt;
+    background-color: white;
 }
 [required]{
     border:2px solid red;
@@ -32,9 +33,13 @@ footer, header{
 .datos:focus{
     background-color: violet;
 }
-.header{
-    padding: 2px;
-    border: 2px;
-    margin: 2px;
+.parrafo{
+    border: 2px solid white;
+    text-align: center;
 }
-
+.conocenos, .info {
+    text-align: center;
+}
+.conocenos{
+    background-color: lightpink;
+}
